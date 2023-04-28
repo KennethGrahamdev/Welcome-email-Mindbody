@@ -83,11 +83,69 @@
         }
     </style>
     <style>
-        @media screen and (max-width: 599.98px) {
+        /* Button Styling */
+        .btn:hover, .wel-btn:hover {
+            background: #090909 !important;
+            transition: all 0.6s ease !important;
+            color: #fff!important;
+        }
+    </style>
+    <style>
+        @media screen and (max-width: 639.98px) {
             /* General styling */
-
-
+            .column {
+                max-width: 600px !important;
+            }
+            .column-head {
+              margin: 30px 20px!important;
+            }
+            .mobile-img {
+                width: 100% !important;
+            }
+            .two-col {
+              padding: 0px 0px 40px 0px!important;
+            }
+            .text-pad {
+              padding: 0 40!important;
+            }
+            .mobile-text {
+              font-size: 18px!important;
+            }
+            .btn {
+              font-size: 20px!important;
+              width: 210px!important;
+            }
             /* Section styling */
+            .wel {
+              padding: 0 30px 20px 20px!important;
+            }
+            .wel-pad {
+              padding: 0 10px 40px 10px!important;
+            }
+            .wel-text {
+              font-size: 18px!important;
+            }
+            .wel-btn-pad {
+              padding-bottom: 30px!important;
+            }
+            .wel-btn {
+              font-size: 20px!important;
+              width: 220px!important;
+            }
+            .social-pad {
+              padding: 0!important;
+            }
+        }
+        @media screen and (max-width: 449.98px) {
+            /* General styling */
+  
+            /* Section styling */
+            .wel {
+              padding: 20px!important;
+            }
+            .wel-pad {
+              padding: 0 0px 40px 0px!important;
+            }
         }
     </style>
     <style>
@@ -107,7 +165,10 @@
                 background: #181a1b !important;
             }
 
-            h1, h2, p {
+            h1, h2 {
+                color: #fff!important;
+            }
+            p {
                 color: #b6b6b6!important;
             }
         }
@@ -189,7 +250,7 @@
                 <td>
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
                         <tr>
-                            <td class="wel dark"style="text-align:center;padding: 30px 40px 20px;background-color:#f4f3e9;">
+                            <td class="wel dark"style="text-align:center;padding: 30px 40px 20px 40px;background-color:#f4f3e9;">
                                 <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
                                     <tr>
                                         <td style="text-align: center;padding-bottom: 20px;">
@@ -213,15 +274,15 @@
                                     <tr>
                                         <td style="text-align: center;padding-bottom: 20px;">
                                             <p
-                                                style="Margin: 0;font-size: 16px;line-height: 24px;color: #333;font-weight: 600;font-family: 'Rubik', sans-serif;">
+                                                class="wel-text" style="Margin: 0;font-size: 16px;line-height: 24px;color: #333;font-weight: 600;font-family: 'Rubik', sans-serif;">
                                                 We’re thrilled you’re here!
                                             </p>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;padding: 0 40px 34px 40px;">
+                                        <td class="wel-pad" style="text-align: center;padding: 0 40px 34px 40px;">
                                             <p
-                                                style="Margin: 0;font-size: 16px;line-height: 28px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
+                                                class="wel-text" style="Margin: 0;font-size: 16px;line-height: 28px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
                                                 Get ready to sweat it out at home or in the studio (whichever way you like) with
                                                 the
                                                 app that will take your wellness to the next level. How could it get any better?
@@ -233,7 +294,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">
+                                        <td class="wel-btn-pad" style="text-align: center;">
                                             <div>
                                                 <!--[if mso]>
                                             <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.mindbodyonline.com/" style="height:50px;v-text-anchor:middle;width:186px;" arcsize="5%" strokecolor="#333" fillcolor="#fff">
@@ -241,7 +302,7 @@
                                               <center style="color:#333;font-family: 'Roboto', sans-serif;font-size:16px;font-weight:500;">START EXPLORING</center>
                                             </v:roundrect>
                                           <![endif]-->
-                                                <a href="https://www.mindbodyonline.com/"
+                                                <a class="wel-btn" href="https://www.mindbodyonline.com/"
                                                     style="background-color:#fff;border:2px solid #333;border-radius:2px;color:#333;display:inline-block;font-family: 'Roboto', sans-serif;font-size:16px;font-weight:500;line-height:50px;text-align:center;text-decoration:none;width:186px;-webkit-text-size-adjust:none;mso-hide:all;">START
                                                     EXPLORING
                                                 </a>
@@ -267,7 +328,7 @@
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;direction:ltr;">
                             <div>
-                                <img src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/highclap.png"
+                                <img class ="mobile-img" src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/highclap.png"
                                     width="280"
                                     style="display: block;width: 280px;max-width: 100%;height: auto;color: #777;font-size: 20px;"
                                     alt="A person clapping and smiling during fitness class.">
@@ -279,13 +340,13 @@
                     <![endif]-->
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;direction:ltr;">
-                            <div class="" style="text-align: center;padding: 0 32px;">
+                            <div class="text-pad" style="text-align: center;padding: 0 32px;">
                                 <h2
-                                    style="margin-top: 50px;margin-bottom: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
-                                    Exclusive<br>Deals
+                                    class="column-head" style="margin-top: 50px;margin-bottom: 20px;margin-right: 20px; margin-left: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
+                                    Exclusive Deals
                                 </h2>
                                 <p
-                                    style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
+                                    class="mobile-text" style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
                                     Who loves your workouts more, you or your wallet?
                                     It’s a tie with Intro Offers like these.
                                 </p>
@@ -296,7 +357,7 @@
                                   <center style="color:#333;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;">FIND DEALS</center>
                                 </v:roundrect>
                               <![endif]-->
-                                    <a href="https://www.mindbodyonline.com/explore/deals"
+                                    <a class="btn" href="https://www.mindbodyonline.com/explore/deals"
                                         style="background-color:#fff;border:2px solid #333;border-radius:2px;color:#333;display:inline-block;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;">FIND DEALS
                                     </a>
                                 </div>
@@ -314,7 +375,7 @@
             <!-- Start Column 2 -->
             <tr>
                 <td>
-                    <div class="two-col" style="text-align:center;font-size:0;padding: 20px 20px 0 20px;">
+                    <div class="two-col pad" style="text-align:center;font-size:0;padding: 20px 20px 0 20px;">
                         <!--[if mso]> 
                         <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="width: 100%;background-color: #f4f3e9;"> 
                         <tr> 
@@ -323,7 +384,7 @@
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;">
                             <div>
-                                <img src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/male.png"
+                                <img class ="mobile-img" src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/male.png"
                                     width="280"
                                     style="display: block;width: 280px;max-width: 100%;height: auto;color: #777;font-size: 20px;"
                                     alt="A person stretching.">
@@ -335,13 +396,13 @@
                     <![endif]-->
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;">
-                            <div class="" style="text-align: center;padding: 0 32px;">
+                            <div class="text-pad" style="text-align: center;padding: 0 32px;">
                                 <h2
-                                    style="margin-top: 50px;margin-bottom: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
-                                    Drop-in<br>classes
+                                    class="column-head" style="margin-top: 50px;margin-bottom: 20px;margin-right: 20px; margin-left: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
+                                    Drop-in classes
                                 </h2>
                                 <p
-                                    style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
+                                    class="mobile-text" style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
                                     Try out as many studios as you’d like before committing.
                                     Find a class that fits your style, location, and calendar.
                                 </p>
@@ -352,7 +413,7 @@
                                   <center style="color:#333;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;">SEARCH STUDIOS</center>
                                 </v:roundrect>
                               <![endif]-->
-                                    <a href="https://www.mindbodyonline.com/explore/fitness/search/classes"
+                                    <a class="btn" href="https://www.mindbodyonline.com/explore/fitness/search/classes"
                                         style="background-color:#fff;border:2px solid #333;border-radius:2px;color:#333;display:inline-block;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;">SEARCH STUDIOS
                                     </a>
                                 </div>
@@ -379,7 +440,7 @@
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;direction:ltr;">
                             <div>
-                                <img src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/faceroll.png"
+                                <img class ="mobile-img" src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/faceroll.png"
                                     width="280"
                                     style="display: block;width: 280px;max-width: 100%;height: auto;color: #777;font-size: 20px;"
                                     alt="A person laying down while receiving a spa facial.">
@@ -391,13 +452,13 @@
                     <![endif]-->
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;direction:ltr;">
-                            <div class="" style="text-align: center;padding: 0 32px;">
+                            <div class="text-pad" style="text-align: center;padding: 0 32px;">
                                 <h2
-                                    style="margin-top: 50px;margin-bottom: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
+                                    class="column-head" style="margin-top: 50px;margin-bottom: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
                                     Wellness
                                 </h2>
                                 <p
-                                    style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
+                                    class="mobile-text" style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
                                     Getting pampered is just one click away.
                                     Go ahead and treat yourself to some R&R at your favorite spa.
                                 </p>
@@ -408,7 +469,7 @@
                                   <center style="color:#333;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;">BOOK WELLNESS</center>
                                 </v:roundrect>
                               <![endif]-->
-                                    <a href="https://www.mindbodyonline.com/explore/deals"
+                                    <a class="btn" href="https://www.mindbodyonline.com/explore/deals"
                                         style="background-color:#fff;border:2px solid #333;border-radius:2px;color:#333;display:inline-block;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;">BOOK WELLNESS
                                     </a>
                                 </div>
@@ -435,7 +496,7 @@
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;">
                             <div>
-                                <img src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/laptop.png"
+                                <img class ="mobile-img" src="https://kgportfoliosite.s3.us-west-1.amazonaws.com/Website/assets/images/images/Mindbody/imgs/laptop.png"
                                     width="280"
                                     style="display: block;width: 280px;max-width: 100%;height: auto;color: #777;font-size: 20px;"
                                     alt="A person on a laptop.">
@@ -447,13 +508,13 @@
                     <![endif]-->
                         <div class="column"
                             style="width:100%;max-width:280px;display:inline-block;vertical-align:top;">
-                            <div class="" style="text-align: center;padding: 0 32px;">
+                            <div class="text-pad" style="text-align: center;padding: 0 32px;">
                                 <h2
-                                    style="margin-top: 50px;margin-bottom: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
+                                    class="column-head" style="margin-top: 50px;margin-bottom: 20px;font-size: 30px;line-height: 40px;color: #333;font-weight: 600;font-family: 'Roboto', sans-serif;">
                                     Virtual Fitness
                                 </h2>
                                 <p
-                                    style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
+                                    class="mobile-text" style="Margin: 0;margin-bottom: 30px;font-size: 14px;line-height: 26px;color: #333;font-weight: 400;font-family: 'Rubik', sans-serif;">
                                     Enjoy your best sweat in your favorite pair of PJs.
                                     Sweat it out in a live stream or on-demand class with your phone or computer.
                                 </p>
@@ -464,7 +525,7 @@
                                   <center style="color:#333;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;">GO VIRTUAL</center>
                                 </v:roundrect>
                               <![endif]-->
-                                    <a href="https://www.mindbodyonline.com/explore/fitness/search/classes"
+                                    <a class="btn" href="https://www.mindbodyonline.com/explore/fitness/search/classes"
                                         style="background-color:#fff;border:2px solid #333;border-radius:2px;color:#333;display:inline-block;font-family: 'Roboto', sans-serif;font-size:14px;font-weight:500;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;">GO VIRTUAL
                                     </a>
                                 </div>
@@ -484,7 +545,7 @@
                 <td>
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
                         <tr>
-                            <td style="padding-top: 20px;background-color:#f4f3e9;">
+                            <td class="social-pad dark" style="padding-top: 20px;background-color:#f4f3e9;">
                                 <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
                                     <tr>
                                         <td style="text-align:center;">
